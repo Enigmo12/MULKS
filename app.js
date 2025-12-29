@@ -64,4 +64,3 @@ lightbox.addEventListener('click', e => {
 
 renderGallery();
 renderPagination();
-
