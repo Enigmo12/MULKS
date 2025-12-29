@@ -1,6 +1,6 @@
 const images = [];
 for (let i = 1; i <= 20; i++) {
-    images.push(`image/img${i}.jpg`);
+    images.push(`img${i}.jpg`);
 }
 
 const imagesPerPage = 8;
@@ -64,3 +64,4 @@ lightbox.addEventListener('click', e => {
 
 renderGallery();
 renderPagination();
+
